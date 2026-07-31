@@ -58,5 +58,45 @@ window.SPRITE_TEMPLATES = [
     variant: false,
     variantType: null,
     image: "assets/base/duck.png"
+  },
+  {
+    officialId: "Ghost Sprite: ESD_GhostSprite_Variant_A",
+    name: "Ghost Sprite",
+    type: "Ghost",
+    rarity: "Epic",
+    chance: "5.25%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/ghost.png"
+  },
+  {
+    officialId: "Demon Sprite: ESD_DemonSprite_Variant_A",
+    name: "Demon Sprite",
+    type: "Demon",
+    rarity: "Epic",
+    chance: "6.48%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/demon.png"
+  },
+  {
+    officialId: "King Sprite: ESD_KingSprite_Variant_A",
+    name: "King Sprite",
+    type: "King",
+    rarity: "Epic",
+    chance: "5.25%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/king.png"
+  },
+  {
+    officialId: "Striker Sprite: ESD_SoccerSprite_Variant_A",
+    name: "Striker Sprite",
+    type: "Striker",
+    rarity: "Epic",
+    chance: "5.25%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/striker.png"
   }
 ];
