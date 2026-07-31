@@ -118,5 +118,15 @@ window.SPRITE_TEMPLATES = [
     variant: false,
     variantType: null,
     image: "assets/base/dream.png"
+  },
+  {
+    officialId: "Zero Point Sprite: ESD_ZeroPointSprite_Variant_A",
+    name: "Zero Point Sprite",
+    type: "Zero Point",
+    rarity: "Mythic",
+    chance: "0.03%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/zeropoint.png"
   }
 ];
