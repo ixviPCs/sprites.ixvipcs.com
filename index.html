@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sprite Collection Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow hero-title">Sprite Collection Tracker</p>
+        </div>
+        <div class="hero-actions">
+          <button id="exportOwnedBtn" class="secondary-button" type="button">Export owned</button>
+          <button id="resetOwnedBtn" class="secondary-button danger-text" type="button">Reset</button>
+        </div>
+      </header>
+
+      <section class="collection-summary" aria-label="Collection progress">
+        <div class="stat-card">
+          <span>Total sprites</span>
+          <strong id="totalCount">0</strong>
+        </div>
+        <div class="stat-card">
+          <span>Owned</span>
+          <strong id="ownedCount">0</strong>
+        </div>
+        <div class="stat-card">
+          <span>Missing</span>
+          <strong id="missingCount">0</strong>
+        </div>
+      </section>
+
+      <section class="filters" aria-label="Sprite filters">
+        <label>
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Name, type, rarity, chance">
+        </label>
+        <label>
+          <span>Sort by</span>
+          <select id="sortSelect">
+            <option value="type">Type</option>
+            <option value="rarity">Rarity</option>
+            <option value="owned">Owned</option>
+            <option value="lost">Lost</option>
+            <option value="missing">Missing</option>
+            <option value="variant">Variant</option>
+            <option value="rare-to-common">Rarity: High to Low</option>
+            <option value="common-to-rare">Rarity: Low to High</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="gallery-wrap" aria-label="Sprite gallery">
+        <div class="gallery-heading">
+          <h2>All sprites</h2>
+          <span id="spriteCount" class="count-pill">0 shown</span>
+        </div>
+        <div id="spriteGallery" class="sprite-gallery"></div>
+        <p id="emptyState" class="empty-state">No sprites match this view.</p>
+      </section>
+    </main>
+
+    <template id="spriteCardTemplate">
+      <article class="sprite-card">
+        <span class="chance-bubble"></span>
+        <button class="sprite-main" type="button">
+          <span class="sprite-art"><img alt=""><span></span></span>
+        </button>
+        <span class="sprite-card-copy">
+          <strong></strong>
+          <span class="have-badge"></span>
+        </span>
+        <span class="card-controls">
+          <button class="mastery-box" type="button">
+            <span class="crown" aria-hidden="true"><span></span><span></span><span></span></span>
+            <span>Mastered</span>
+          </button>
+          <span class="quantity-control" aria-label="Owned quantity">
+            <span class="quantity-row">
+              <button class="quantity-minus" type="button" aria-label="Decrease quantity">-</button>
+              <strong></strong>
+              <button class="quantity-plus" type="button" aria-label="Increase quantity">+</button>
+            </span>
+            <span class="level-label">Level</span>
+          </span>
+          <button class="lost-box" type="button">
+            <span class="ghost-icon" aria-hidden="true"></span>
+            <span>Lost</span>
+          </button>
+        </span>
+      </article>
+    </template>
+
+    <script src="sprites.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
