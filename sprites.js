@@ -108,5 +108,15 @@ window.SPRITE_TEMPLATES = [
     variant: false,
     variantType: null,
     image: "assets/base/aura.png"
+  },
+  {
+    officialId: "Dream Sprite: ESD_SleepySprite_Variant_A",
+    name: "Dream Sprite",
+    type: "Dream",
+    rarity: "Legendary",
+    chance: "4.45%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/dream.png"
   }
 ];
