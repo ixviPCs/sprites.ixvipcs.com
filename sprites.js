@@ -98,5 +98,15 @@ window.SPRITE_TEMPLATES = [
     variant: false,
     variantType: null,
     image: "assets/base/striker.png"
+  },
+  {
+    officialId: "Aura Sprite: ESD_DrifterSprite_Variant_A",
+    name: "Aura Sprite",
+    type: "Aura",
+    rarity: "Epic",
+    chance: "6.48%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/aura.png"
   }
 ];
