@@ -48,5 +48,15 @@ window.SPRITE_TEMPLATES = [
     variant: false,
     variantType: null,
     image: "assets/base/fishy.png"
+  },
+  {
+    officialId: "Duck Sprite: ESD_DuckSprite_Variant_A",
+    name: "Duck Sprite",
+    type: "Duck",
+    rarity: "Epic",
+    chance: "6.48%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/duck.png"
   }
 ];
