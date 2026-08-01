@@ -128,5 +128,15 @@ window.SPRITE_TEMPLATES = [
     variant: false,
     variantType: null,
     image: "assets/base/zeropoint.png"
-  }
+  },
+  {
+  officialId: "Punk Sprite: ESD_PunkSprite_Variant_A",
+  name: "Punk Sprite",
+  type: "Punk",
+  rarity: "Legendary",
+  chance: "4.45%",
+  variant: false,
+  variantType: null,
+  image: "assets/base/punk.png"
+}
 ];
