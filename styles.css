@@ -240,13 +240,13 @@ h2 {
   font-weight: 700;
 }
 
-.-gallery {
+.sprite-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   gap: 14px;
 }
 
-.-card {
+.sprite-card {
   position: relative;
   display: grid;
   grid-template-rows: auto auto auto;
@@ -264,7 +264,7 @@ h2 {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 10px 30px rgba(0, 0, 0, 0.22);
 }
 
-.-card::after {
+.sprite-card::after {
   content: attr(data-state);
   position: absolute;
   top: 12px;
@@ -292,7 +292,7 @@ h2 {
   box-shadow: 0 0 18px rgba(37, 217, 255, 0.18);
 }
 
-.-main {
+.sprite-main {
   display: block;
   width: 100%;
   border: 0;
@@ -301,16 +301,16 @@ h2 {
   padding: 0;
 }
 
-.-card:hover {
+.sprite-card:hover {
   box-shadow: 0 0 24px rgba(37, 217, 255, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.14);
 }
 
-.-card.owned {
+.sprite-card.owned {
   background: linear-gradient(145deg, rgba(37, 217, 255, 0.2), rgba(168, 85, 247, 0.14)), var(--panel);
   box-shadow: 0 0 28px rgba(37, 217, 255, 0.24), 0 0 42px rgba(168, 85, 247, 0.13);
 }
 
-.-art {
+.sprite-art {
   display: grid;
   width: 100%;
   aspect-ratio: 1;
@@ -450,7 +450,7 @@ h2 {
   box-shadow: 0 0 20px rgba(190, 201, 216, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
-.-card.lost .lost-box {
+.sprite-card.lost .lost-box {
   border-color: #aeb8c6;
   background: linear-gradient(145deg, rgba(185, 194, 207, 0.52), rgba(98, 110, 130, 0.36));
   color: #f4f7fb;
@@ -491,7 +491,7 @@ h2 {
     radial-gradient(circle at 14px 0, transparent 4px, currentColor 4px);
 }
 
-.-card.mastered .mastery-box {
+.sprite-card.mastered .mastery-box {
   border-color: #ffd700;
   background: linear-gradient(145deg, rgba(255, 215, 0, 0.42), rgba(234, 171, 0, 0.24));
   color: #fff4b8;
@@ -531,14 +531,14 @@ h2 {
   right: 1px;
 }
 
-.-art img {
+.sprite-art img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   image-rendering: pixelated;
 }
 
-.-art span {
+.sprite-art span {
   display: grid;
   width: 100%;
   height: 100%;
