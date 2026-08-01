@@ -563,13 +563,6 @@ h2 {
   -webkit-backdrop-filter: blur(14px);
 }
 
-.sprite-card-copy-text {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  min-width: 0;
-}
-
 .sprite-card-copy strong {
   display: block;
   min-width: 0;
