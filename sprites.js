@@ -30,6 +30,16 @@ window.SPRITE_TEMPLATES = [
     image: "assets/base/earth.png"
   },
   {
+    officialId: "Earth Sprite: ESD_EarthSprite_Variant_Cube",
+    name: "Cube Earth Sprite",
+    type: "Earth",
+    rarity: "Special",
+    chance: "0.21%",
+    variant: true,
+    variantType: "Cube",
+    image: "assets/Cube/earth.png"
+  },
+  {
     officialId: "Earth Sprite: ESD_EarthSprite_Variant_Gold",
     name: "Gold Earth Sprite",
     type: "Earth",
