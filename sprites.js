@@ -13,7 +13,7 @@ window.SPRITE_TEMPLATES = [
     officialId: "Water Sprite: ESD_Water_Variant_Gold",
     name: "Gold Water Sprite",
     type: "Water",
-    rarity: "Rare",
+    rarity: "Special",
     chance: "0.53%",
     variant: true,
     variantType: "Gold",
@@ -28,6 +28,16 @@ window.SPRITE_TEMPLATES = [
     variant: false,
     variantType: null,
     image: "assets/base/earth.png"
+  },
+  {
+    officialId: "Earth Sprite: ESD_EarthSprite_Variant_Gold",
+    name: "Gold Earth Sprite",
+    type: "Earth",
+    rarity: "Special",
+    chance: "0.53%",
+    variant: true,
+    variantType: "Gold",
+    image: "assets/Gold/earth.png"
   },
   {
     officialId: "Fire Sprite: ESD_Spitfire_Variant_A",
