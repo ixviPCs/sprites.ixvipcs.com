@@ -24,6 +24,35 @@ let masteredSprites = new Set(readSet(MASTERED_STORAGE_KEY));
 let lostSprites = new Set(readSet(LOST_STORAGE_KEY));
 let spriteQuantities = readQuantity();
 
+const TYPE_ORDER = [
+  "John Wick",
+  "Batman",
+  "Water",
+  "Earth",
+  "Fire",
+  "Duck",
+  "Ghost",
+  "Dream",
+  "Demon",
+  "Punk",
+  "King",
+  "Vini Jr.",
+  "Burnt Peanut",
+  "Zero Point",
+  "Fishy",
+  "Striker",
+  "Aura",
+  "Boss",
+  "Grim",
+  "Air",
+  "Seven",
+  "Pollo",
+  "Lootin' Llama",
+  "Peeky Peely"
+];
+
+const VARIANT_ORDER = ["Base", "Cube", "Gold", "Gummy", "Galaxy", "Gem", "Holofoil", "Quack"];
+
 function normalizeSprite(sprite) {
   if (!sprite?.officialId || !sprite?.name) {
     return null;
@@ -127,6 +156,24 @@ function rarityRank(rarity) {
   return ranks[String(rarity || "").toLowerCase()] || 0;
 }
 
+function orderedRank(value, order) {
+  const normalized = String(value || "").toLowerCase();
+  const index = order.findIndex((item) => item.toLowerCase() === normalized);
+  return index === -1 ? order.length : index;
+}
+
+function variantName(sprite) {
+  return sprite.variant ? sprite.variantType || "Variant" : "Base";
+}
+
+function byTypeGroup(a, b) {
+  return orderedRank(a.type, TYPE_ORDER) - orderedRank(b.type, TYPE_ORDER)
+    || orderedRank(variantName(a), VARIANT_ORDER) - orderedRank(variantName(b), VARIANT_ORDER)
+    || a.type.localeCompare(b.type)
+    || variantName(a).localeCompare(variantName(b))
+    || a.name.localeCompare(b.name);
+}
+
 function matchesFilters(sprite) {
   const query = els.searchInput.value.trim().toLowerCase();
   const searchable = [sprite.officialId, sprite.name, sprite.type, sprite.rarity, sprite.variantType, sprite.chance]
@@ -157,7 +204,7 @@ function sortSprites(list) {
       return sorted.sort(boolSort((sprite) => sprite.variant));
     case "type":
     default:
-      return sorted.sort((a, b) => a.type.localeCompare(b.type) || byName(a, b));
+      return sorted.sort(byTypeGroup);
   }
 }
 
