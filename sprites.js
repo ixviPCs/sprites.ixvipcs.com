@@ -20,6 +20,46 @@ window.SPRITE_TEMPLATES = [
     image: "assets/Gold/water.png"
   },
   {
+    officialId: "Water Sprite: ESD_Water_Variant_Quack",
+    name: "Quack Water Sprite",
+    type: "Water",
+    rarity: "Special",
+    chance: "0%",
+    variant: true,
+    variantType: "Quack",
+    image: "assets/Quack/water.png"
+  },
+  {
+    officialId: "Water Sprite: ESD_Water_Variant_Candy",
+    name: "Gummy Water Sprite",
+    type: "Water",
+    rarity: "Special",
+    chance: "0.53%",
+    variant: true,
+    variantType: "Gummy",
+    image: "assets/Gummy/water.png"
+  },
+  {
+    officialId: "Water Sprite: ESD_Water_Variant_Galaxy",
+    name: "Galaxy Water Sprite",
+    type: "Water",
+    rarity: "Special",
+    chance: "0.43%",
+    variant: true,
+    variantType: "Galaxy",
+    image: "assets/Galaxy/water.png"
+  },
+  {
+    officialId: "Water Sprite: ESD_Water_Variant_Holofoil",
+    name: "Holofoil Water Sprite",
+    type: "Water",
+    rarity: "Special",
+    chance: "0.53%",
+    variant: true,
+    variantType: "Holofoil",
+    image: "assets/Holofoil/water.png"
+  },
+  {
     officialId: "Earth Sprite: ESD_EarthSprite_Variant_A",
     name: "Earth Sprite",
     type: "Earth",
@@ -150,23 +190,23 @@ window.SPRITE_TEMPLATES = [
     image: "assets/base/dream.png"
   },
   {
-  officialId: "Punk Sprite: ESD_PunkSprite_Variant_A",
-  name: "Punk Sprite",
-  type: "Punk",
-  rarity: "Legendary",
-  chance: "4.45%",
-  variant: false,
-  variantType: null,
-  image: "assets/base/punk.png"
-},
-{
-  officialId: "Boss Sprite: ESD_BossSprite_Variant_A",
-  name: "Boss Sprite",
-  type: "Boss",
-  rarity: "Legendary",
-  chance: "4.45%",
-  variant: false,
-  variantType: null,
-  image: "assets/base/boss.png"
-}
+    officialId: "Punk Sprite: ESD_PunkSprite_Variant_A",
+    name: "Punk Sprite",
+    type: "Punk",
+    rarity: "Legendary",
+    chance: "4.45%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/punk.png"
+  },
+  {
+    officialId: "Boss Sprite: ESD_BossSprite_Variant_A",
+    name: "Boss Sprite",
+    type: "Boss",
+    rarity: "Legendary",
+    chance: "4.45%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/boss.png"
+  }
 ];
