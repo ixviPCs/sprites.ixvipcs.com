@@ -1,6 +1,6 @@
 window.SPRITE_TEMPLATES = [
   {
-    officialId: "Water Sprite: ESD_Water",
+    officialId: "Water Sprite: ESD_Water_Variant_A",
     name: "Water Sprite",
     type: "Water",
     rarity: "Rare",
@@ -10,27 +10,7 @@ window.SPRITE_TEMPLATES = [
     image: "assets/base/water.png"
   },
   {
-    officialId: "Air Sprite: ESD_AirSprite",
-    name: "Air Sprite",
-    type: "Air",
-    rarity: "Rare",
-    chance: "0%",
-    variant: false,
-    variantType: null,
-    image: "assets/base/air.png"
-  },
-  {
-    officialId: "Fire Sprite: ESD_Spitfire",
-    name: "Fire Sprite",
-    type: "Fire",
-    rarity: "Rare",
-    chance: "0%",
-    variant: false,
-    variantType: null,
-    image: "assets/base/fire.png"
-  },
-  {
-    officialId: "Earth Sprite: ESD_EarthSprite",
+    officialId: "Earth Sprite: ESD_EarthSprite_Variant_A",
     name: "Earth Sprite",
     type: "Earth",
     rarity: "Rare",
@@ -40,7 +20,17 @@ window.SPRITE_TEMPLATES = [
     image: "assets/base/earth.png"
   },
   {
-    officialId: "Fishy Sprite: ESD_FishySprite",
+    officialId: "Fire Sprite: ESD_Spitfire_Variant_A",
+    name: "Fire Sprite",
+    type: "Fire",
+    rarity: "Rare",
+    chance: "0%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/fire.png"
+  },
+  {
+    officialId: "Fishy Sprite: ESD_FishySprite_Variant_A",
     name: "Fishy Sprite",
     type: "Fishy",
     rarity: "Rare",
@@ -48,6 +38,16 @@ window.SPRITE_TEMPLATES = [
     variant: false,
     variantType: null,
     image: "assets/base/fishy.png"
+  },
+  {
+    officialId: "Air Sprite: ESD_AirSprite_Variant_A",
+    name: "Air Sprite",
+    type: "Air",
+    rarity: "Rare",
+    chance: "0%",
+    variant: false,
+    variantType: null,
+    image: "assets/base/air.png"
   },
   {
     officialId: "Duck Sprite: ESD_DuckSprite_Variant_A",
@@ -128,5 +128,15 @@ window.SPRITE_TEMPLATES = [
   variant: false,
   variantType: null,
   image: "assets/base/punk.png"
+},
+{
+  officialId: "Boss Sprite: ESD_BossSprite_Variant_A",
+  name: "Boss Sprite",
+  type: "Boss",
+  rarity: "Legendary",
+  chance: "4.45%",
+  variant: false,
+  variantType: null,
+  image: "assets/base/boss.png"
 }
 ];
