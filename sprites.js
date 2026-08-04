@@ -90,6 +90,36 @@ window.SPRITE_TEMPLATES = [
     image: "assets/Gold/earth.png"
   },
   {
+    officialId: "Earth Sprite: ESD_EarthSprite_Variant_Quack",
+    name: "Quack Earth Sprite",
+    type: "Earth",
+    rarity: "Special",
+    chance: "0%",
+    variant: true,
+    variantType: "Quack",
+    image: "assets/Quack/water.png"
+  },
+  {
+    officialId: "Earth Sprite: ESD_EarthSprite_Variant_Candy",
+    name: "Gummy Earth Sprite",
+    type: "Earth",
+    rarity: "Special",
+    chance: "0.53%",
+    variant: true,
+    variantType: "Gummy",
+    image: "assets/Gummy/water.png"
+  },
+  {
+    officialId: "Earth Sprite: ESD_EarthSprite_Variant_Galaxy",
+    name: "Galaxy Earth Sprite",
+    type: "Earth",
+    rarity: "Special",
+    chance: "0.43%",
+    variant: true,
+    variantType: "Galaxy",
+    image: "assets/Galaxy/water.png"
+  },
+  {
     officialId: "Fire Sprite: ESD_Spitfire_Variant_A",
     name: "Fire Sprite",
     type: "Fire",
