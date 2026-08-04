@@ -97,7 +97,7 @@ window.SPRITE_TEMPLATES = [
     chance: "0%",
     variant: true,
     variantType: "Quack",
-    image: "assets/Quack/water.png"
+    image: "assets/Quack/earth.png"
   },
   {
     officialId: "Earth Sprite: ESD_EarthSprite_Variant_Candy",
@@ -107,7 +107,7 @@ window.SPRITE_TEMPLATES = [
     chance: "0.53%",
     variant: true,
     variantType: "Gummy",
-    image: "assets/Gummy/water.png"
+    image: "assets/Gummy/earth.png"
   },
   {
     officialId: "Earth Sprite: ESD_EarthSprite_Variant_Galaxy",
@@ -117,7 +117,7 @@ window.SPRITE_TEMPLATES = [
     chance: "0.43%",
     variant: true,
     variantType: "Galaxy",
-    image: "assets/Galaxy/water.png"
+    image: "assets/Galaxy/earth.png"
   },
   {
     officialId: "Fire Sprite: ESD_Spitfire_Variant_A",
