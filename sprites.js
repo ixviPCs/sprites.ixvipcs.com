@@ -130,6 +130,66 @@ window.SPRITE_TEMPLATES = [
     image: "assets/base/fire.png"
   },
   {
+    officialId: "Fire Sprite: ESD_Spitfire_Variant_Cube",
+    name: "Cube Fire Sprite",
+    type: "Fire",
+    rarity: "Special",
+    chance: "0.21%",
+    variant: true,
+    variantType: "Cube",
+    image: "assets/Cube/fire.png"
+  },
+  {
+    officialId: "Fire Sprite: ESD_Spitfire_Variant_Gold",
+    name: "Gold Fire Sprite",
+    type: "Fire",
+    rarity: "Special",
+    chance: "0.53%",
+    variant: true,
+    variantType: "Gold",
+    image: "assets/Gold/fire.png"
+  },
+  {
+    officialId: "Fire Sprite: ESD_Spitfire_Variant_Candy",
+    name: "Gummy Fire Sprite",
+    type: "Fire",
+    rarity: "Special",
+    chance: "0.53%",
+    variant: true,
+    variantType: "Gummy",
+    image: "assets/Gummy/fire.png"
+  },
+  {
+    officialId: "Fire Sprite: ESD_Spitfire_Variant_Galaxy",
+    name: "Galaxy Fire Sprite",
+    type: "Fire",
+    rarity: "Special",
+    chance: "0.43%",
+    variant: true,
+    variantType: "Galaxy",
+    image: "assets/Galaxy/fire.png"
+  },
+  {
+    officialId: "Fire Sprite: ESD_Spitfire_Variant_Holofoil",
+    name: "Holofoil Fire Sprite",
+    type: "Fire",
+    rarity: "Special",
+    chance: "0.53%",
+    variant: true,
+    variantType: "Holofoil",
+    image: "assets/Holofoil/fire.png"
+  },
+  {
+    officialId: "Fire Sprite: ESD_Spitfire_Variant_Quack",
+    name: "QuackFire Sprite",
+    type: "Fire",
+    rarity: "Special",
+    chance: "0%",
+    variant: true,
+    variantType: "Quack",
+    image: "assets/Quack/fire.png"
+  },
+  {
     officialId: "Fishy Sprite: ESD_FishySprite_Variant_A",
     name: "Fishy Sprite",
     type: "Fishy",
